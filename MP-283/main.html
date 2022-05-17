@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link rel="stylesheet" href="style2.css">
+<link rel="shortcut icon" href="../imgk/logoadidasshort.jpeg" type="image/x-icon">
+<title>adidas Colombia</title>
+</head>
+<body>
+<header>
+            <img class = "logo" src="../imgk/logoadidas.jpeg" alt="logo">
+        </header>
+<main
+class = menu>
+    <nav>
+    <ul>
+        <li><a href="Hombre.html">Hombre</a></li>
+        <li><a href="Mujer.html">Mujer</a></li>
+        <li><a href="index.html">Descuentos</a></li>
+    </ul>
+    </nav>
+    <button id="btn-cart">
+        <i class="fas fa-cart-plus"></i>
+        <p id="p-counter">0</p>
+    </button>    
+</main>
+<section  class="Formulario">
+    <h1>ADIDAS X</h1>
+    <form>
+        <h2>Vota por la proxima colabotación</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id = "nombre" placeholder="Escribe Tu nombre">
+        <label type="email">Correo Electonico: *</label>
+        <input for="text" id="email" placeholder="correo Electonico" required></label>
+        <img id="Voto"src="../catalogo/badbunny.jpeg">
+        <p>¿Es de tu agrado la colaboración?</p>
+        <div class="radios">
+            <input type="radio" name="conect" id="positiva">
+            <label for="positiva">Me gusta</label>
+            <input type="radio" name="conect" id="negativa">
+            <label for="negativa">No me gusta</label>
+        </div>
+        <label for="mensaje">Escribe tu mensaje:</label>
+        <textarea rows="2" cols="1" id="mensaje"></textarea>
+        <input id="Borrar" type="reset" value="Borrar">
+        <input id="Enviar" type="submit" value="Enviar">
+    </form>
+</section>
+<main id="main-market"> 
+</main>
+<footer>© 2022 adidas Colombia LTDAr</footer>
+<script src="app.js"></script>
+<script src="products.js"></script>
+</body>
+</html>
